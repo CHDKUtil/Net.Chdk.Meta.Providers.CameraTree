@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.CameraTree", "Net.Chdk.Meta.Providers.CameraTree.csproj", "{44965DD7-6A59-45F9-A5A2-C58CB297B71D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.CameraTree.Core", "..\..\..\Net.Chdk.Meta.Providers.CameraTree.Core\src\Net.Chdk.Meta.Providers.CameraTree.Core\Net.Chdk.Meta.Providers.CameraTree.Core.csproj", "{7DFA900F-4AAB-4268-90D8-20A8FF3B40A7}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{7dfa900f-4aab-4268-90d8-20a8ff3b40a7}*SharedItemsImports = 4
+		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{83c6a77c-3286-4f5f-b628-3b971097ad05}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44965DD7-6A59-45F9-A5A2-C58CB297B71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44965DD7-6A59-45F9-A5A2-C58CB297B71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44965DD7-6A59-45F9-A5A2-C58CB297B71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44965DD7-6A59-45F9-A5A2-C58CB297B71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFA900F-4AAB-4268-90D8-20A8FF3B40A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFA900F-4AAB-4268-90D8-20A8FF3B40A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFA900F-4AAB-4268-90D8-20A8FF3B40A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFA900F-4AAB-4268-90D8-20A8FF3B40A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
